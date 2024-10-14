@@ -1,0 +1,153 @@
+/* knowlage */
+/* the start */
+.knowlage {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #F9F9F9;
+}
+.knowlage .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.knowlage .container .up {
+    width: 48%;
+    height: 70vh;
+    border-radius: 30px ;
+    overflow: hidden;
+}
+.knowlage .container .up img {
+    width: 100%;
+    border-radius: 30px ;
+    height: 100%;
+    object-fit: cover;
+}
+.knowlage .container .down {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.knowlage .container .down .one {
+    font-size: 15px;
+    font-weight: 600;
+    color:#C5C5C5;
+}
+.knowlage .container .down .two {
+    font-size: 40px;
+    font-weight: 700;
+    color: #005D79; 
+    font-family: "Poppins";
+}
+.knowlage .container .down .three {
+    font-size: 17px;
+    font-weight: 400;
+    color:#6E6E6E;
+}
+.knowlage .container .down .five {
+    height: 60px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: #005D79;
+    transition: all 0.3s ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+}
+.knowlage .container .down .five:hover {
+    background-color: #00BDFF;
+    cursor: pointer;
+}
+.select-menu {
+    width : 500px;
+    margin-top: 18px;
+    height: 65px;
+    position: relative;
+}
+.select-menu .select-btn {
+    height: 65px;
+    width: 500px;
+    border-radius: 30px;
+    font-family: "Poppins";
+    font-size: 18px;
+    font-weight: 300;
+    background-color: white;
+    color: #6E6E6E;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    align-items: center;
+    cursor: pointer;
+}
+.select-menu .select-btn i {
+    font-size: 25px;
+}
+.select-menu.active .select-btn i {
+    transform: rotate(-180deg);
+}
+.select-menu .options {
+    position: absolute;
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    background-color: white;
+    border-radius: 30px;
+    top: 65px;
+    right: 0;
+    list-style: none;
+    display: none;
+    z-index: 9999;
+}
+.select-menu.active .options {
+    display: block;
+}
+.select-menu .options .option {
+    padding: 10px 12px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 8px;
+    transition: all 0.2s ease-in;
+}
+.select-menu .options .option:hover {
+    background-color: #F2F2F2;
+}
+@media (max-width : 980px) {
+    .knowlage .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 35px;
+    }
+    .knowlage .container .up {
+        width: 100%;
+    }
+    .knowlage .container .down {
+        width: 100%
+    }
+}
+@media (max-width : 660px) { 
+    .knowlage .container .down .two {
+        font-size: 32px;
+        font-weight: 600;
+        color: #005D79; 
+        font-family: "Poppins";
+    }
+    .select-menu {
+        width : 300px;
+        margin-top: 18px;
+        height: 55px;
+        margin-inline: auto;
+    }
+    .select-menu .select-btn {
+        height: 55px;
+        width: 300px;
+    }
+}
+/* the end */
+

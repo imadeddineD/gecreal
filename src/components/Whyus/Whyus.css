@@ -1,0 +1,198 @@
+/* start the whyus */
+.whyus {
+    background-color: #005D79;
+}
+.whyus .container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whyus .container .left{
+    width: 64%;
+}
+.whyus .container .left .up {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.whyus .container .left .up .small {
+    font-size: 15px;
+    font-weight: 600;
+    color: #C5C5C5;
+}
+.whyus .container .left .up .big {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    font-family: "Poppins";
+}
+.whyus .container .left .down {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+.whyus .container .left .down .downlft {
+    width: 330px;
+    height: 280px;
+    border: 10px white solid;
+    border-radius: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.whyus .container .left .down .downlft img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.whyus .container .left .down .downlft > div {
+    width: 100%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 20;
+    position: absolute;
+}
+.whyus .container .left .down .downrght {
+    width: 310px;
+}
+.whyus .container .left .down .downrght > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.whyus .container .left .down .downrght > div .lft {
+    width: 10%;
+}
+.whyus .container .left .down .downrght > div .rght {
+    width: 88%;
+}
+.whyus .container .left .down .downrght > div div > p:first-child {
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+.whyus .container .left .down .downrght > div div >p:last-child {
+    font-size: 15px;
+    font-weight: 400;
+    color: #DADADA;
+}
+.whyus .container .right{
+    width: 31%;
+    padding: 38px;
+    border-radius: 30px;
+    background-color: #DADADA;
+
+}
+.whyus .container .right .talks {
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    color: #005D79;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.whyus .container .right .desc {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6E6E6E;
+    margin-bottom: 20px;
+    line-height: 29px;
+}
+.whyus .container .right .features {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    gap: 15px;
+}
+.whyus .container .right .features > div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 20px;
+}
+.whyus .container .right .features > div span:last-child {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6E6E6E ;
+}
+@media (max-width : 980px) {
+    .whyus .container {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .whyus .container .left{
+        width: 100%;
+    }
+    .whyus .container .right{
+        width: 400px;
+        height: 510px;
+        padding: 38px;
+        border-radius: 30px;
+        background-color: #DADADA;
+    
+    }
+}
+@media (max-width : 600px) {
+    .whyus .container .left .down {
+        flex-direction: column;
+    }
+    .whyus .container .left .up .big {
+        font-size: 34px;
+        font-weight: 700;
+        color: white;
+        font-family: "Poppins";
+        text-align: center;
+    }
+}
+@media (max-width : 470px) {
+    .whyus .container .left .down {
+        flex-direction: column;
+    }
+    .whyus .container .right{
+        width: 95%;
+        height: 500px;
+        padding: 38px;
+        border-radius: 30px;
+        margin: auto;
+        background-color: #DADADA;
+    
+    }
+    .whyus .container .right .talks {
+        font-size: 20px;
+        font-weight: 600;
+        font-style: italic;
+        color: #005D79;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .whyus .container .right .desc {
+        font-size: 16px;
+        font-weight: 400;
+        color: #6E6E6E;
+        margin-bottom: 10px;
+    }
+    .whyus .container .right .features {
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .whyus .container .right .features > div span:last-child {
+        font-size: 16px;
+        font-weight: 400;
+        color: #6E6E6E ;
+    }
+}
+/* the end of why us */
+

@@ -1,0 +1,7 @@
+.headerone .container {
+    z-index: 2; /* Ensures the content is above the overlay */
+    margin: auto;
+}
+.headerone .res > div  {
+    margin-top: 40px;
+}

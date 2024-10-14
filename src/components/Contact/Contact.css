@@ -1,0 +1,115 @@
+.contacts {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.contacts .container {
+    position: relative;
+    background-image: url("../../assets/contact.jpeg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 90px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts .container .title {
+    color: white;
+    font-family: "Poppins";
+    font-size: 52px;
+    font-weight: 800;
+    width: 80%;
+    text-align: center;
+}
+.contacts .container .desc {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 18px;
+    font-weight: 400;
+    width: 80%;
+    text-align: center;
+}
+.contacts .container .button {
+    color: rgba(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 244px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #005D79;
+    transition: 0.2s all ease-in;
+}
+.contacts .container .button a{
+    color: rgba(255, 255, 255);
+    font-size: 18px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 244px;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+    background-color: #005D79;
+    transition: 0.2s all ease-in;
+}
+.contacts .container .button a:hover {
+    background-color: #00BDFF;
+}
+@media (max-width : 600px) {
+    .contacts .container .title {
+        color: white;
+        font-family: "Poppins";
+        font-size: 40px;
+        font-weight: 800;
+        width: 90%;
+        text-align: center;
+    }
+    .contacts .container {
+        padding: 60px 30px;
+    }
+}
+@media (max-width : 500px) {
+    .contacts .container .title {
+        color: white;
+        font-family: "Poppins";
+        font-size: 32px;
+        font-weight: 800;
+        width: 95%;
+        text-align: center;
+    }
+    .contacts .container .desc {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 16px;
+        font-weight: 400;
+        width: 90%;
+        text-align: center;
+    }
+    .contacts .container .button {
+        color: rgba(255, 255, 255);
+        font-size: 16px;
+        font-weight: 600;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 200px;
+        height: 50px;
+        border-radius: 30px;
+        cursor: pointer;
+        background-color: #005D79;
+        transition: 0.2s all ease-in;
+    }
+    .contacts .container {
+        padding: 30px 15px;
+    }
+}

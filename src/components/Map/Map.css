@@ -1,0 +1,20 @@
+.contacts {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #005D79;
+}
+.contacts .container {
+    position: relative;
+    background-image: url('../../assets/map.png');
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    overflow: hidden;
+    padding: 90px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}

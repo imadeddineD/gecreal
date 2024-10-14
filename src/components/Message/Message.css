@@ -1,0 +1,159 @@
+/* THE MESSAGE SECTION */
+/* THE START */
+.message {
+    background-color: #005D79;
+    margin-bottom: -20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.message .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(480px,1fr));
+    gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.message .container .left {
+    padding: 40px;
+    border-radius: 30px;
+    background-color: #F9F9F9;  
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.message .container .left .up{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.message .container .left .up .title{
+    font-size: 33px;
+    font-weight: 600;
+    color: #005D79;
+    font-family: "Poppins";
+}
+.message .container .left .up .desc{
+    font-size: 18px;
+    font-weight: 400;
+    color: #6E6E6E;
+}
+.message .container .left form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.message .container .left form .element{
+    display: grid;
+    grid-template-areas: "a a b b" "c c d d" "e e e e";
+    gap: 20px;
+}
+.message .container .left form .element > div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.message .container .left form .element > div > label{
+    font-size: 17px;
+    font-weight: 500;
+    color: #707070;
+}
+.message .container .left form .element > div > input{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 20px;
+}
+.message .container .left form .element > div > textarea{
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 20px;
+    height: 115px;
+}
+.message .container .left form .element1{
+    grid-area: a;
+}
+.message .container .left form .element2{
+    grid-area: b;
+}
+.message .container .left form .element3{
+    grid-area: c;
+}
+.message .container .left form .element4{
+    grid-area: d;
+}
+.message .container .left form .element5{
+    grid-area: e;
+}
+.message .container .left form .button{
+    width: 270px;
+    height: 60px;
+}
+.message .container .left form .button button{
+    width: 270px;
+    height: 60px;
+    background-color: #005D79;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+}
+@media (max-width : 550px) {
+    .message .container .left form .element{
+        display: grid;
+        grid-template-areas: "a a" "b b" "c c" "d d" "e e";
+        gap: 20px;
+    }
+    .message .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill , minmax(330px,1fr));
+        gap: 50px;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.message .container .right {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+}
+.message .container .one {
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Open Sans";
+    color: white;
+}
+.message .container .two {
+    font-size: 40px;
+    font-weight: 700;
+    font-family: "Poppins";
+    color: white;
+}
+.message .container .three {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+}
+.message .container .four > div {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.message .container .four > div > .disc p:first-child {
+    font-size: 21px;
+    font-weight: 400;
+    font-family: "Poppins";
+    color: rgba(255, 255, 255, 0.75);
+}
+.message .container .four > div > .disc p:last-child {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 1);
+}
+/* THE END */

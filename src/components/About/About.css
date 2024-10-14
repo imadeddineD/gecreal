@@ -1,0 +1,199 @@
+/* about start */
+.about .container {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.about .container .upper {
+    display: grid;
+    grid-template-areas: "a b" "c b";
+    gap: 20px;
+}
+.about .container .upper .one {
+    grid-area: a;
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+    width: 50%;
+}
+.about .container .upper .two {
+    grid-area: c;
+    color: #005D79;
+    font-size: 50px;
+    font-weight: 800;
+    width: 70%;
+}
+.about .container .upper .three {
+    grid-area: b;
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    align-items: center;
+}
+.about .container .upper .three span {
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about .container .upper .three span a{
+    color: #707070;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about .container .upper .three span a:hover {
+    cursor: pointer;
+    color: #005D79;
+    transition: all 0.2s;
+}
+@media (max-width : 810px) {
+    .about .container .upper .two {
+        grid-area: c;
+        color: #005D79;
+        font-size: 38px;
+        font-weight: 800;
+        width: 80%;
+    }
+}
+@media (max-width : 620px) {
+    .about .container .upper .two {
+        grid-area: c;
+        color: #005D79;
+        font-size: 38px;
+        font-weight: 800;
+        width: 100%;
+        text-align: center;
+    }
+    .about .container .upper {
+        display: grid;
+        grid-template-areas: "a b" "c c";
+        gap: 20px;
+    }
+    .about .container .upper .one {
+        width: 100%;
+    }
+}
+@media (max-width : 445px) {
+.about .container .upper .one {
+    grid-area: a;
+    color: #707070;
+    font-size: 13px;
+    font-weight: 500;
+}
+.about .container .upper .three {
+    grid-area: b;
+    gap: 4px;
+}
+.about .container .upper .three span {
+    color: #707070;
+    font-size: 13px;
+    font-weight: 500;
+}
+}
+.about .container .lower {
+    position: relative;
+}
+.about .container .lower .talks {
+    width: 417px;
+    height: 276px;
+    background-color: #005D79;
+    border-radius: 30px;
+    padding: 35px;
+}
+.about .container .lower .talks .caption {
+    padding-top: 15px;
+    width: 70%;
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.75);
+}
+.about .container .lower .talks > div:last-child {
+    padding-top: 15px;
+    width: 70%;
+    font-family: "Poppins";
+    font-size: 25px;
+    font-weight: 600;
+    color: rgba(255, 255, 255);
+}
+.about .container .lower .scroll {
+    position: absolute;
+    width: 70%;
+    height: 100%;
+    right: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 20;
+    height: 276px;
+}
+.about .container .lower .scroll > div {
+    width: 32%;
+    border-radius: 30px;
+    border: 10px solid #fff;
+    overflow: hidden;
+    height: 220px;
+}
+.about .container .lower .scroll > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width : 980px) {
+    .about .container .lower .talks .caption {
+        width: 50%;
+        font-size: 20px;
+    }
+    .about .container .lower .talks > div:last-child {
+        width: 50%;
+        font-size: 21px;
+    }
+}
+@media (max-width : 850px) {
+    .about .container .lower .talks .caption {
+        width: 80%;
+        font-size: 22px;
+    }
+    .about .container .lower .talks > div:last-child {
+        width: 80%;
+        font-size: 22px;
+    }
+    .about .container .lower .scroll {
+        position: relative;
+        width: 100%;
+        right: 0;
+        top: 0;
+        display: flex;
+        justify-content: flex-start; /* Align items to the start */
+        gap: 2px;
+        align-items: center;
+        overflow-x: auto; /* Enable horizontal scrolling */
+        overflow-y: hidden; /* Hide vertical overflow */
+        scroll-snap-type: x mandatory; /* Optional: Snap scrolling */
+    }
+    
+    .about .container .lower .scroll > div {
+        min-width: 200px; /* Ensure each item has a minimum width */
+        border-radius: 30px;
+        border: 2px solid #fff;
+        overflow: hidden;
+        height: 220px;
+        flex-shrink: 0; /* Prevent items from shrinking */
+    }
+    
+}
+@media (max-width : 520px) {
+    .about .container .lower .talks {
+        margin: auto;
+        width: 340px;
+        height: 245px;
+        background-color: #005D79;
+        border-radius: 30px;
+        padding: 35px;
+    }
+    .about .container .lower .talks .caption {
+        width: 100%;
+        font-size: 22px;
+    }
+}
+/* about end */

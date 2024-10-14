@@ -1,0 +1,72 @@
+/* the process */
+/* the start */
+.process {
+    background-color: #F9F9F9;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.process .container .up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+.process .container .up .one{
+    font-size: 15px;
+    font-weight: 600;
+    color: #999999;
+}
+.process .container .up .two{
+    font-size: 40px;
+    font-weight: 700;
+    color: #005D79;
+    font-family: 'Poppins';
+}
+.process .container .down{
+    margin-top: 30px;
+    display: grid;
+    gap: 14px;
+    grid-template-columns: repeat(auto-fill,minmax(255px,1fr));
+}
+.process .container .down > div {
+    border-radius: 30px;
+    padding: 35px;
+    transition: all 0.2s ease-in;
+}
+.process .container .down > div .one {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.process .container .down > div .two {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 21px;
+    font-weight: 400;
+    font-family: 'Poppins';
+    color: #707070;
+    transition: all 0.2s ease-in;
+}
+.process .container .down > div .three {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #6E6E6E;
+    transition: all 0.2s ease-in;
+}
+.process .container .down > div:hover .two,
+.process .container .down > div:hover .three 
+ {
+    color: white;
+}
+.process .container .down > div:hover {
+    background-color: #005D79;
+}
+@media (max-width : 600px) {
+    .process .container .up .two{
+        font-size: 32px
+    }
+}
+/* the end */

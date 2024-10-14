@@ -1,0 +1,82 @@
+/* vision */
+/* the start */
+.vision {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.vision .container .up .one {
+    font-size: 15px;
+    font-weight: 600;
+    color: #C5C5C5;
+}
+.vision .container .up .two {
+    padding-top: -20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #005D79;
+    font-family: "Poppins";
+}
+.vision .container .up .three {
+    padding-top: -20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #6E6E6E;
+}
+
+.vision .container .down {
+    margin-top: 55px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill , minmax(350px , 1fr));
+    gap: 20px;
+}
+.vision .container .down > div {
+    background-color: #F9F9F9;
+    padding: 40px;
+    border-radius: 30px;
+}
+.vision .container .down > div .title {
+   font-family: "Poppins";
+   font-size: 25px;
+   font-weight: 500;
+   color: #005D79;
+   padding-bottom: 40px;
+   border-bottom: 1px #DADADA solid;
+}
+.vision .container .down > div .cont {
+   padding-top: 40px;
+}
+.vision .container .down > div .cont > div {
+   display: flex;
+   gap: 15px;
+   justify-content: start;
+   align-items: center;
+}
+.vision .container .down > div .cont > div > div:last-child > p:first-child {
+    font-size: 21px;
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #707070;
+}
+.vision .container .down > div .cont > div > div:last-child > p:last-child {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: #6E6E6E;
+}
+.vision .container .down > .right .up{
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
+    font-family: "Open Sans";
+    color: #005D79;
+}
+.vision .container .down > .right .down{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    color: #6E6E6E;
+    overflow: hidden;
+    line-height: 29px;
+    text-wrap: "wrap";
+}
+/* the end */
