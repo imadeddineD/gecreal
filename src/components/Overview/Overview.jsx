@@ -1,16 +1,22 @@
 import React from 'react'
 import './Overview.css'
+import {motion} from "framer-motion"
+import { SlideUp } from '../../utils/animate'
 
 const Overview = () => {
   return (
     <section class="vision">
     <div class="container">
-        <div class="up">
+        <motion.div variants={SlideUp(0.2)}
+          initial="hidden"
+          whileInView={"visible"} class="up">
             <p class="one">OVERVIEW</p>
             <p class="two">House Interior Design Service</p>
             <p class="three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        </div>
-        <div class="down">
+        </motion.div>
+        <motion.div class="down" variants={SlideUp(0.2)}
+          initial="hidden"
+          whileInView={"visible"}>
             
                         
                    <div>
@@ -21,7 +27,7 @@ const Overview = () => {
                         
                    </div>    
                 
-        </div>
+        </motion.div>
     </div>
   </section>
   )

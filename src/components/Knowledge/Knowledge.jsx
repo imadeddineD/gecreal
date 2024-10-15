@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './KnowladgeSection.css'; // Import your CSS styles
 import three from "../../assets/three.jpeg"
+import { SlideLeft, SlideRight } from '../../utils/animate';
+import {motion} from 'framer-motion'
 
 const KnowladgeSection = () => {
     // State to keep track of the active dropdown and selected options
@@ -25,10 +27,14 @@ const KnowladgeSection = () => {
     return (
         <section className="knowlage">
             <div className="container">
-                <div className="up">
+                <motion.div variants={SlideRight(0.2)}
+          initial="hidden"
+          whileInView={"visible"} className="up">
                     <img src={three} alt="img3" />
-                </div>
-                <div className="down">
+                </motion.div>
+                <motion.div variants={SlideLeft(0.2)}
+          initial="hidden"
+          whileInView={"visible"} className="down">
                     <div className="one">Service Knowladge</div>
                     <div className="two">Our Interior Design Service Included High Quality Rendering Design</div>
                     <div className="three">
@@ -93,7 +99,7 @@ const KnowladgeSection = () => {
                         </div>
                     </div>
                     <div className="five">Get a Quote</div>
-                </div>
+                </motion.div>
             </div>
         </section>
     );
