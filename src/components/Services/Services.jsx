@@ -27,7 +27,6 @@ const Services = () => {
                         </svg>                            
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
                     <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
                 </div>
                 <div class="card">
@@ -37,7 +36,6 @@ const Services = () => {
                         </svg>                            
                     </div>
                     <div class="title">Nettoyage Des Canalisations</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
                     <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
                 </div>
                 <div class="card">
@@ -47,7 +45,6 @@ const Services = () => {
                         </svg>                                                      
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
                     <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
                 </div>
             </motion.div>

@@ -5,7 +5,8 @@ import {motion} from "framer-motion"
 const Heroo = ({
     title , 
     subTit , 
-    image
+    image , 
+    descreption
 }) => {
   return (
     <div className="relative h-screen w-full">
@@ -22,9 +23,7 @@ const Heroo = ({
 </svg>
 </span><span>{subTit}</span></div>
             <h1 className="sm:text-[46px] text-[35px] font-[800]">{title}</h1>
-            <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            <p className=""> {descreption}    </p>
             
           </motion.div>
 

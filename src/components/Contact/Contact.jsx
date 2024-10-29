@@ -10,7 +10,6 @@ const Contact = () => {
             initial="hidden"
             whileInView={"visible"} class="container">
         <div class="title">COLLABOREZ AVEC DES EXPERTS DES CANALISATIONS</div>
-        <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
         <div class="button"><a href="/contact">CONTACTEZ-NOUS</a></div>
     </motion.div>
    </section>

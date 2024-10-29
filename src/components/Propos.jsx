@@ -10,7 +10,7 @@ import image2 from "../assets/img2.png"
 const Propos = () => {
   return (
     <>
-     <Heroo title="À PROPOS DE NOUS" subTit="À PROPOS" image={image2} />
+     <Heroo title="À PROPOS DE NOUS" subTit="À PROPOS" image={image2} descreption={"GEC International, une société se développant activement en offrant une large gamme de services pour la réparation sans tranchée et la construction de réseaux externes d&apos;alimentation en eau: les égouts, les canalisations d&apos;eau chaude et de vapeur, ainsi que l&apos;industrie des pipelines technologiques"} />
      <History/>
      <Vision/>
      <Howwork/>

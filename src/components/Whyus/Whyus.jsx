@@ -36,7 +36,7 @@ const Whyus = () => {
                             </div>
                             <div class="rght">
                                 <p>Expertise</p>
-                                <p>Lorem ipsum dolor sit amet</p>
+                                
                             </div>
                         </div>
                         <div class="five">
@@ -47,7 +47,7 @@ const Whyus = () => {
                             </div>
                             <div class="rght">
                                 <p>Qualité</p>
-                                <p>Lorem ipsum dolor sit amet</p>
+                                
                             </div>
                         </div>
                         <div class="six">
@@ -58,7 +58,7 @@ const Whyus = () => {
                             </div>
                             <div class="rght">
                                 <p>Durabilité</p>
-                                <p>Lorem ipsum dolor sit amet</p>
+                                
                             </div>
                         </div>
                     </div>

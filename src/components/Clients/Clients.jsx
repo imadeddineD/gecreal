@@ -50,15 +50,15 @@ const Clients = () => {
                             </svg>
                         </div>
                         <div class="talk">
-                            {"“"} Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor {"“"}
+                            {"“"}  La qualité des travaux réalisés par la OOO PF «STIS» mérite les plus grands éloges, et l&apos;usine de traitement du gaz est intéressé par une coopération avec la société  {"“"}
                         </div>
-                        <div class="profil">
+                        {/* <div class="profil">
                             <div class="img"><img src={alter} alt=""/></div>
                             <div>
                                 <div>Mr. Med Abach</div>
                                 <div>Mr. Med Abach</div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div>
                         <div class="stars">
@@ -71,15 +71,15 @@ const Clients = () => {
                             </svg>
                         </div>
                         <div class="talk">
-                            {"“"} Lorem ipsum dolor sit amet, consectetur adipiscing elit sed do eiusmod tempor {"“"}
+                            {"“"}  La Compagnie de Production «STIS» effectue les travaux pour la réfection majeure de réseaux d&apos;eaux usées fécales en utilisant la technologie sans tranchée avec succès et qualité  {"“"}
                         </div>
-                        <div class="profil">
+                        {/* <div class="profil">
                             <div class="img"><img src={alter} alt=""/></div>
                             <div>
                                 <div>Mr. Med Abach</div>
                                 <div>Mr. Med Abach</div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </motion.div>

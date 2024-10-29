@@ -28,7 +28,7 @@ const Ourwork = () => {
                     <img src={one} alt="ONE"/>
                     <div>
                         <div class="tit">Réhabilitations de canalisations</div>
-                        <div class="desc">Lorem ipsum dolor sit amet consectetur adipsing elit.</div>
+                        
                     </div>
                 </motion.div>
                 <motion.div variants={SlideLeft(0.2)}
@@ -37,7 +37,7 @@ const Ourwork = () => {
                     <img src={two} alt="TWO"/>
                     <div>
                         <div class="tit">Réhabilitations </div>
-                        <div class="desc">Lorem ipsum dolor sit amet consectetur .</div>
+                        
                     </div>
                 </motion.div>
                 <motion.div variants={SlideLeft(0.3)}
@@ -46,7 +46,7 @@ const Ourwork = () => {
                     <img src={three} alt="THREE"/>
                     <div>
                         <div class="tit">Réhabilitations </div>
-                        <div class="desc">Lorem ipsum dolor sit amet consectetur .</div>
+                        
                     </div>
                 </motion.div>
                 <motion.div variants={SlideLeft(0.4)}
@@ -55,7 +55,7 @@ const Ourwork = () => {
                     <img src={four} alt="FOUR"/>
                     <div>
                         <div class="tit">Réhabilitations </div>
-                        <div class="desc">Lorem ipsum dolor sit amet consectetur .</div>
+                        
                     </div>
                 </motion.div>
                 <motion.div variants={SlideLeft(0.5)}
@@ -64,7 +64,7 @@ const Ourwork = () => {
                     <img src={five} alt="FIVE"/>
                     <div>
                         <div class="tit">Réhabilitations </div>
-                        <div class="desc">Lorem ipsum dolor sit amet consectetur .</div>
+                        
                     </div>
                 </motion.div>
                 <motion.div variants={SlideLeft(0.6)}
@@ -73,7 +73,7 @@ const Ourwork = () => {
                     <img src={six} alt="SIX"/>
                     <div>
                         <div class="tit">Réhabilitations </div>
-                        <div class="desc">Lorem ipsum dolor sit amet consectetur .</div>
+                        
                     </div>
                 </motion.div>
             </div>
