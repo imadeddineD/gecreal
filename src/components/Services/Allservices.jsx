@@ -26,8 +26,8 @@ const Allservices = () => {
                         </svg>                            
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="desc">Nos ingénieurs réalisent un diagnostic approfondi en collaboration avec les entreprises et autorités pour identifier les actions nécessaires.</div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </motion.div>
                 <motion.div 
                 variants={SlideLeft(0.3)}
@@ -39,8 +39,8 @@ const Allservices = () => {
                         </svg>                            
                     </div>
                     <div class="title">Nettoyage Des Canalisations</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="desc">La téléinspection de "GEC International" identifie avec précision les défauts des canalisations via un rapport vidéo détaillé.</div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </motion.div>
                 <motion.div 
                 variants={SlideLeft(0.4)}
@@ -52,8 +52,8 @@ const Allservices = () => {
                         </svg>                                                      
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="desc">Nous restaurons la capacité des conduits par des méthodes de nettoyage variées : hydrodynamique, fraise hydraulique, hydro cavitation et techniques mécaniques.</div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </motion.div>
                 <motion.div 
                 variants={SlideLeft(0.4)}
@@ -65,8 +65,8 @@ const Allservices = () => {
                         </svg>                                                      
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="desc">Notre procédé de gaines polymères restaure l'étanchéité et renforce la canalisation pour une durabilité jusqu'à 50 ans.</div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </motion.div>
                 <motion.div 
                 variants={SlideLeft(0.5)}
@@ -78,8 +78,8 @@ const Allservices = () => {
                         </svg>                                                      
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="desc">Notre service restaure les réservoirs d’eaux usées sans interrompre leur fonctionnement, en insérant un tuyau en polyéthylène à haute rigidité, assurant débit et intégrité durables.</div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </motion.div>
                 <motion.div 
                 variants={SlideLeft(0.6)}
@@ -91,8 +91,8 @@ const Allservices = () => {
                         </svg>                                                      
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="desc">Lorem ipsum dolor sit amet consectetur adipiscing elit.</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="desc">Nous posons des canalisations jusqu'à 4000 mm via forages directionnels et micro-tunnels sans tranchées.</div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </motion.div>
             </div>
             <div class="down">

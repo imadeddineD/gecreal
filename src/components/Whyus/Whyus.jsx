@@ -64,7 +64,7 @@ const Whyus = () => {
                     </div>
                 </div>
             </motion.div>
-            <motion.div 
+            {/* <motion.div 
             variants={SlideLeft(0.2)}
             initial="hidden"
             whileInView={"visible"} class="right">
@@ -108,7 +108,7 @@ const Whyus = () => {
                         <span>Best Work Result</span>
                     </div>
                 </div>
-            </motion.div>
+            </motion.div> */}
         </div>
     </section>
   )

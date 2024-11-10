@@ -12,7 +12,6 @@ const Vision = () => {
           whileInView={"visible"} class="up">
                 <p class="one">NOTRE VISION</p>
                 <p class="two">NOUS VISONS GRAND, POUR DE MEILLEURS RÉSULTATS </p>
-                <p class="three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </motion.div>
             <motion.div variants={SlideUp(0.3)}
           initial="hidden"

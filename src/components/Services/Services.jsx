@@ -27,7 +27,7 @@ const Services = () => {
                         </svg>                            
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </div>
                 <div class="card">
                     <div class="icon">
@@ -36,7 +36,7 @@ const Services = () => {
                         </svg>                            
                     </div>
                     <div class="title">Nettoyage Des Canalisations</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </div>
                 <div class="card">
                     <div class="icon">
@@ -45,7 +45,7 @@ const Services = () => {
                         </svg>                                                      
                     </div>
                     <div class="title">Inspection Du Réseau</div>
-                    <div class="button"><a href="/services/service">EN SAVOIR PLUS</a></div>
+                    <div class="button"><a href="/services">EN SAVOIR PLUS</a></div>
                 </div>
             </motion.div>
             <div class="down">

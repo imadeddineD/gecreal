@@ -20,8 +20,7 @@ const Hero = () => {
             <h3 className="sm:text-[14px] text-[13px] font-[600] text-[#C5C5C5] uppercase">GEC International</h3>
             <h1 className="sm:text-[46px] text-[35px] font-[800]">La réhabilitation des conduites</h1>
             <p className="">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            </p>
+            À l&apos;heure des défis climatiques et de raréfaction de l&apos;eau, SPA GEC International regroupe des savoir-faire et des technologies à la fine pointe, autour d&apos;une approche intégrale permettant d&apos;assurer le plus bas coût possible la restauration des conduites et une longévité accrue des systèmes de canalisation, Tout en préservant une qualité optimale de l&apos;eau.            </p>
             <div className="flex sm:flex-row flex-col justify-start items-center  sm:gap-6 gap-3">
               <a
                 href="/services"

@@ -21,7 +21,7 @@ export default function Router() {
         { path: "contact", element: <Contact /> },
         { path: "propos", element: <Propos /> },
         { path: "services", element: <Services /> },
-        { path: "services/service", element: <SiglePage /> },
+        // { path: "services/service", element: <SiglePage /> },
         
       ]
     },

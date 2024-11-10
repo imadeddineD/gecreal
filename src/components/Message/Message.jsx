@@ -12,7 +12,6 @@ const Message = () => {
           whileInView={"visible"} class="left">
             <div class="up">
                 <div class="title">Laissez-nous un message...</div>
-                <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut</div>
             </div>
             <form action="">
                 <div class="element">
@@ -47,7 +46,6 @@ const Message = () => {
           whileInView={"visible"} class="right">
             <div class="one">Restez connectés</div>
             <div class="two">RESTEZ EN CONTACT AVEC NOUS</div>
-            <div class="three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
             <div class="four">
                 <div>
                     <div class="log">

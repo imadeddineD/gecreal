@@ -1,0 +1,228 @@
+/* history start */
+.history {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.history .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.history .container .left , 
+.history .container .right {
+    width: 47%;
+    height: 680px;
+    position: relative;
+}
+@media (max-width : 980px) {
+    .history .container {
+        flex-direction: column;
+    }
+    
+    .history .container .left , 
+    .history .container .right {
+        width: 100%;
+        height: 680px;
+        position: relative;
+    }
+    
+}
+@media (max-width : 700px) {
+    .history .container .left {
+        height: 500px;
+    }
+    
+}
+
+
+.history .container .left > .one {
+    height: 85%;
+    width: 68%;
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+
+.history .container .left > .two {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 73%;
+    width: 66%;
+    border-radius: 30px;
+    overflow: hidden;
+    border: white 10px solid;
+}
+
+.history .container .left > .three {
+    position: absolute;
+    left: 60px;
+    bottom: 60px;
+    height: 160px;
+    width: 234px;
+    border-radius: 30px;
+    background-color: white;
+    line-height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.history .container .left > .three p:first-child {
+    font-size: 40px;
+    font-weight: 700;
+    color: #005D79;
+    font-family: "Poppins";
+}
+.history .container .left > .three p:last-child {
+    font-size: 19px;
+    font-weight: 400;
+    color: #005D79;
+    font-family: "Poppins";
+}
+.history .container .left > .one img , 
+.history .container .left > .two img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+@media (max-width : 600px) {
+    .history .container .left {
+        height: 400px;
+    }
+    .history .container .left > .one {
+        height: 75%;
+        width: 85%;
+        border-radius: 30px;
+        overflow: hidden;
+    } 
+    .history .container .left > .two {
+        height: 65%;
+        width: 70%;
+    }
+    .history .container .left > .three {
+        left: 30px;
+        bottom: 20px;
+        height: 130px;
+        width: 190px;
+    }
+    .history .container .left > .three p:first-child {
+        font-size: 30px;
+        font-weight: 600;
+        color: #005D79;
+        font-family: "Poppins";
+    }
+    .history .container .left > .three p:last-child {
+        font-size: 16px;
+        font-weight: 400;
+    }
+}
+@media (max-width : 450px) {
+    .history .container .left {
+        height: 370px;
+    }
+    .history .container .left > .one {
+        height: 75%;
+        width: 93%;
+        border-radius: 30px;
+        overflow: hidden;
+    } 
+    .history .container .left > .two {
+        height: 65%;
+        width: 82%;
+    }
+    .history .container .left > .three {
+        left: 5px;
+        bottom: 10px;
+        height: 130px;
+        width: 190px;
+    }
+    
+}
+.history .container .right {
+    padding-top: 60px; 
+    padding-bottom:60px ;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.history .container .right .one {
+    font-size: 15px;
+    font-weight: 600;
+    color: #999999;
+}
+.history .container .right .two {
+    padding-top: -20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: #005D79;
+    font-family: "Poppins";
+}
+.history .container .right .three {
+    padding-top: -20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #999999;
+}
+.history .container .right .four , 
+.history .container .right .five {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.history .container .right .four .lft , 
+.history .container .right .five .lft {
+    width: 10%;
+}
+.history .container .right .four .rght , 
+.history .container .right .five .rght {
+    width: 88%;
+    
+}
+.history .container .right .four .rght p , 
+.history .container .right .five .rght p {
+    color: #999999 !important;
+}
+.history .container .right .four div > p:first-child ,
+.history .container .right .five div > p:first-child{
+    font-size: 19px;
+    font-weight: 400;
+    color: white;
+}
+.history .container .right .four div >p:last-child , 
+.history .container .right .five div > p:last-child{
+    font-size: 15px;
+    font-weight: 400;
+    color: #DADADA;
+}
+
+.history .container .right .six {
+    width: 256px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #005D79;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+
+}
+@media (max-width : 600px) {
+    .history .container .right {
+        padding-top: 40px; 
+        padding-bottom:40px ;
+    }
+    .history .container .right .two {
+        font-size: 32px;
+    }
+    .history .container .right .four div > p:first-child , 
+    .history .container .right .five div > p:first-child{
+    font-size: 17px;
+}
+}
+/* the end */

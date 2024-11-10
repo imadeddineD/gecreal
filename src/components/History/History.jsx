@@ -28,7 +28,6 @@ const HistorySection = () => {
             class="right">
                 <p class="one">HISTOIRE</p>
                 <p class="two">UNE ÉQUIPE DE PROFESSIONNELS</p>
-                <p class="three">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <div class="four">
                     <div class="lft">
                         <svg width="27" height="36" viewBox="0 0 27 36" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -36,8 +35,7 @@ const HistorySection = () => {
                         </svg>    
                     </div>
                     <div class="rght">
-                        <p>20 + Winning Awards</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p className=''>15K + m2 de complexe indutriel</p>
                     </div>
                 </div>
                 <div class="five">
@@ -48,8 +46,7 @@ const HistorySection = () => {
                                                         
                     </div>
                     <div class="rght">
-                        <p>15 Years Of Experience</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                    <p>25 Années d&apos;expérience</p>
                     </div>
                 </div>
                 <div class="six">

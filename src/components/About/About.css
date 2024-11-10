@@ -96,8 +96,14 @@
     height: 276px;
     background-color: #005D79;
     border-radius: 30px;
-    padding: 35px;
+    overflow: hidden;
 }
+.about .container .lower .talks img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .about .container .lower .talks .caption {
     padding-top: 15px;
     width: 70%;
