@@ -36,7 +36,7 @@ const Ourwork = () => {
             whileInView={"visible"} class="two">
                     <img src={two} alt="TWO"/>
                     <div>
-                        <div class="tit">Réhabilitations </div>
+                        
                         
                     </div>
                 </motion.div>
@@ -45,7 +45,7 @@ const Ourwork = () => {
             whileInView={"visible"} class="three">
                     <img src={three} alt="THREE"/>
                     <div>
-                        <div class="tit">Réhabilitations </div>
+                        
                         
                     </div>
                 </motion.div>
@@ -54,7 +54,7 @@ const Ourwork = () => {
             whileInView={"visible"} class="four">
                     <img src={four} alt="FOUR"/>
                     <div>
-                        <div class="tit">Réhabilitations </div>
+                        
                         
                     </div>
                 </motion.div>
@@ -63,7 +63,7 @@ const Ourwork = () => {
             whileInView={"visible"} class="five">
                     <img src={five} alt="FIVE"/>
                     <div>
-                        <div class="tit">Réhabilitations </div>
+                        
                         
                     </div>
                 </motion.div>
@@ -72,14 +72,14 @@ const Ourwork = () => {
             whileInView={"visible"} class="six">
                     <img src={six} alt="SIX"/>
                     <div>
-                        <div class="tit">Réhabilitations </div>
+                        
                         
                     </div>
                 </motion.div>
             </div>
             <div class="downer">
                 <span>
-                    <span>DÉCOUVREZ</span><span>NOS TRAVEAUX</span>
+                    <span>DÉCOUVREZ</span><span>NOS TRAVAUX</span>
                 </span>
             </div>
         </div>

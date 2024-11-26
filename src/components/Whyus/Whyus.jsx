@@ -47,7 +47,6 @@ const Whyus = () => {
                             </div>
                             <div class="rght">
                                 <p>Qualité</p>
-                                
                             </div>
                         </div>
                         <div class="six">

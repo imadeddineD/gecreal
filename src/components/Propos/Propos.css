@@ -36,8 +36,8 @@
 
 
 .history .container .left > .one {
-    height: 85%;
-    width: 68%;
+    height: 60%;
+    width: 72%;
     border-radius: 30px;
     overflow: hidden;
 }
@@ -46,8 +46,8 @@
 .history .container .left > .two {
     position: absolute;
     right: 0;
-    bottom: 0;
-    height: 73%;
+    top: 10%;
+    height: 74%;
     width: 66%;
     border-radius: 30px;
     overflow: hidden;
@@ -57,7 +57,7 @@
 .history .container .left > .three {
     position: absolute;
     left: 60px;
-    bottom: 60px;
+    bottom: 25%;
     height: 160px;
     width: 234px;
     border-radius: 30px;

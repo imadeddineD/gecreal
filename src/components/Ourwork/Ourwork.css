@@ -119,7 +119,7 @@
     color: rgba(255, 255, 255, 0.75);
 }
 
-.ourwork .container .down > div:hover > div {
+.ourwork .container .down > div:first-child > div {
     opacity: 1;
 }
 
@@ -144,4 +144,4 @@
     font-size: 15px;
     cursor:no-drop;
 }
-/* THE END */
+/* THE END  */
